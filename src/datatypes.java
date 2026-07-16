@@ -1,3 +1,4 @@
+import javax.swing.plaf.synth.SynthScrollBarUI;
 
 public class datatypes {
 
@@ -20,9 +21,14 @@ public class datatypes {
 //		System.out.println(doubleNumber);
 //		
 		
-		int mySpeed =100;
-		System.out.println(mySpeed);
-				
+//		int mySpeed =100;
+//		System.out.println(mySpeed);
+		
+		
+		 char hello='A';
+		 System.out.println(hello);
+				 
+		
 	}
 	
 
