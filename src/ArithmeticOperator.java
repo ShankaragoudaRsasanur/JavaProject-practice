@@ -24,13 +24,13 @@ public class ArithmeticOperator {
 		
 //		increment operator and decrement operator
 	
-		int x=10;
-		x++;
-		System.out.println(x);
-		int a =20;
-		a--;
-		System.out.println(a);
-		
+//		int x=10;
+//		x++;
+//		System.out.println(x);
+//		int a =20;
+//		a--;
+//		System.out.println(a);
+//		
 		
 		
 	}
