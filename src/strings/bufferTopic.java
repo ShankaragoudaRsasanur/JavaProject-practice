@@ -284,16 +284,61 @@ public class bufferTopic {
 		System.out.println(sb);output :java stack    */
 		
 		/* replace() replace the part of text*/
-		 StringBuffer sb =new StringBuffer("java full stack");
+		 /*StringBuffer sb =new StringBuffer("java full stack");
 		 sb.replace(0,4,"python");
-		 System.out.println(sb);//
+		 System.out.println(sb);python full stack*/
 		 
-		 
-		 
-		 
-		 
+		 /* revers()  reverse the text.
+		   StringBuffer sb = new StringBuffer("Java");
+
+	        sb.reverse(Java);
+
+	        System.out.println(sb);    output avaj*/
 		
-	}
+			/*length():return the number of characters.
+			StringBuffer sb = new StringBuffer("Java");
+
+			System.out.println(sb.length());  output 4*/
+			 
+		
+		
+		/*Difference Between String and StringBuffer
+		String	                                     StringBuffer
+		
+		Immutable (cannot be changed)    	        Mutable (can be changed)
+		Creates a new object when modified	        Changes the same object
+		Slower when many modifications are needed	Faster for repeated modifications
+		
+		
+		Example with String
+		String s = "Java";
+
+		s.concat(" Full Stack");
+
+		System.out.println(s);
+
+	Output
+
+	Java
+
+	The original String doesn't change because Strings are immutable.
+		 
+		example with StringBuffer
+			StringBuffer sb = new StringBuffer("Java");
+			
+			sb.append(" Full Stack");
+			
+			System.out.println(sb);
+			
+			Output
+			
+			Java Full Stack
+			
+			The original object is updated.
+					
+					
+					*/
+				}
 
 }
 
