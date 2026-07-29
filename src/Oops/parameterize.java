@@ -72,6 +72,32 @@ Age : 22
 
 
 
+/*============================
+ 
+ new Student("Shankaragouda",22)
+             │
+             ▼
+Object is created
+             │
+             ▼
+Constructor Student(String n, int a) is called
+             │
+             ▼
+n = "Shankaragouda"
+a = 22
+             │
+             ▼
+name = n
+age = a
+             │
+             ▼
+Object stores:
+name = Shankaragouda
+age = 22
+ */
+
+
+
 
 
 
