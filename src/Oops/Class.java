@@ -6,7 +6,7 @@ public class Class {
 		int  num1 =20;
 		int  num2 =30;
 		int result =num1 +num2;
-		System.out.println(result);
+		System.out.println(result); 
 				
 				
 				
