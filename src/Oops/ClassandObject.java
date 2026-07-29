@@ -212,3 +212,19 @@ boolean
 char
  */
 
+
+
+/*Student 1
+Name : Shankaragouda
+Age  : 22
+
+Student 2
+Name : Sahana
+Age  : 21
+
+Student 3
+Name : Rahul
+Age  : 23
+
+A normal constructor cannot do this because it always assigns the same values.*/ 
+
