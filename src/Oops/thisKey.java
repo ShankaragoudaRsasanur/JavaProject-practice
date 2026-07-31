@@ -1,4 +1,12 @@
 package Oops;
+
+/*
+ this.name = name;
+│           │
+│           └── Value coming into the constructor
+│
+└── Variable inside the object
+ */
 class Student4 {
 
     String name;
