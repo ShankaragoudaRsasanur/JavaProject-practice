@@ -1,11 +1,17 @@
 package Oops;
 
 /*
+ this.name  → Object's variable
+
+=
+
+name       → Value received from the constructor
  this.name = name;
 │           │
 │           └── Value coming into the constructor
 │
 └── Variable inside the object
+ Object variable = Value received from the constructor
  */
 class Student4 {
 
