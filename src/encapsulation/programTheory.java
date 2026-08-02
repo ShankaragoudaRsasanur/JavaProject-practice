@@ -150,6 +150,30 @@ A Setter is a public method used to store or update the value of a private varia
 
 
 
+
+
+private
+    ↓
+Data is Protected 
+
+Setter
+    ↓
+Stores or Updates Data 
+
+Getter
+    ↓
+Reads or Returns Data 
+
+
+
+
+Difference Between Getter and Setter
+Getter	                           Setter
+Used to read data	           Used to store/update data
+Returns a value	               Does not return a value (void)
+Starts with get               	Starts with set
+Example: getName()	          Example: setName()
+
 /*public class programTheory {
 
 	public static void main(String[] args) {
