@@ -1,4 +1,23 @@
-package inheritance;
+/*
+
+Inheritance means one class can use the variables and
+ methods of another class.
+ 
+ 
+ Meaning of extends
+extends means
+
+inherits from or gets the properties
+ and methods of another class.
+
+
+Inheritance is an OOP concept in which one class acquires
+ the propertiesand methods of another class using the extends keyword.
+ It helps in code reusability and reduces code duplication.
+
+*/
+
+/*package inheritance;
 
 
 class Animal {
@@ -24,4 +43,19 @@ public class main {
         d1.bark();
 
     }
+}*/
+package inheritance;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Car c1 = new Car();
+
+        c1.start();
+        c1.drive();
+
+    }
+
 }
+
