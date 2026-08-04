@@ -182,4 +182,132 @@ Example: getName()	          Example: setName()
 	}
 
 }
+
+private
+   ↓
+Protect the data 
+
+Setter
+   ↓
+Stores the data 
+
+Getter
+   ↓
+Reads the data 
+
+
+
+
+
+ example on gitter and setter  both 
+ 
+ 
+class Student {
+
+    // Private variables
+    private String name;
+    private int age;
+
+    // Setter Method for Name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Setter Method for Age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Getter Method for Name
+    public String getName() {
+        return name;
+    }
+
+    // Getter Method for Age
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student();
+
+        // Setting values
+        s1.setName("Shankaragouda");
+        s1.setAge(22);
+
+        // Getting values
+        System.out.println("Student Name : " + s1.getName());
+        System.out.println("Student Age : " + s1.getAge());
+
+    }
+
+}
+   example on bank hiolder
+
+Imagine you have a bank account.
+
+Your account details are:
+
+Account Holder : Shankaragouda
+Balance : ₹50000
+
+Should everyone be able to change your balance directly?
+
+account.balance = 1000000;
+
+ No.
+
+So we make the variables private and use Setter and Getter.
+
+Complete Program
+class BankAccount {
+
+    private String accountHolder;
+    private int balance;
+
+    // Setter for Account Holder
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
+    }
+
+    // Setter for Balance
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
+    // Getter for Account Holder
+    public String getAccountHolder() {
+        return accountHolder;
+    }
+
+    // Getter for Balance
+    public int getBalance() {
+        return balance;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        BankAccount account = new BankAccount();
+
+        account.setAccountHolder("Shankaragouda");
+        account.setBalance(50000);
+
+        System.out.println("Account Holder : " + account.getAccountHolder());
+        System.out.println("Balance : " + account.getBalance());
+
+    }
+
+}
+Output
+Account Holder : Shankaragouda
+Balance : 50000
+
+
 */
